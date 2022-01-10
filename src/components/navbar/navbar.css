@@ -4,7 +4,6 @@
   display: flex;
   justify-content: start;
   align-items: center;
-  border-radius:5px 5px 0px 0px ;
 }
 .menu-bars{
   margin-left: 2rem;
@@ -18,7 +17,7 @@
   height: 100vh;
   display: flex;
   justify-content: center;
-  position: relative;
+  position: fixed;
   top: 0;
   left: -50%;
   transition: 850ms;
@@ -30,8 +29,8 @@
 .nav-text{
   display: flex;
   justify-content:start;
-  align-items: left;
-  padding: 0px 40px 0px 1px;
+  align-items: start;
+  padding: 0px 40px 0px 30px;
   list-style: none;
   height: 60px;
 }
