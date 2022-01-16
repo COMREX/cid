@@ -62,6 +62,6 @@ border-radius: 1px;
   justify-content:start;
   align-items: center;
 }
-span {
-  margin-left: 16px;
+.navbar-item {
+  margin-left:16px;
 }
