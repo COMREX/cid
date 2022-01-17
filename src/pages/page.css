@@ -22,7 +22,13 @@
   margin: 50px;
 }
 .form-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin:50px;
+}
+.form-control{
+  margin: 3px;
 }
 .start{
   text-decoration: none;

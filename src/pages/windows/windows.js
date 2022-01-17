@@ -21,11 +21,33 @@ function Windows() {
         <TextField label="Enter url here.."></TextField>
         <br />
         <div className="form-content">
-          <Button variant="outlined" color="default" type="submit">
-            <span className="start">
-              <FaIcons.FaPlay />
-            </span>
-          </Button>
+          <div className="form-control">
+            <Button variant="outlined" color="default" type="submit">
+              <span className="start">
+                <h2>
+                  <FaIcons.FaEdit />
+                </h2>
+              </span>
+            </Button>
+          </div>
+          <div className="form-control">
+            <Button variant="outlined" color="default" type="submit">
+              <span className="start">
+                <h2>
+                  <FaIcons.FaSave />
+                </h2>
+              </span>
+            </Button>
+          </div>
+          <div className="form-control">
+            <Button variant="outlined" color="default" type="submit">
+              <span className="start">
+                <h2>
+                  <FaIcons.FaPlay />
+                </h2>
+              </span>
+            </Button>
+          </div>
         </div>
       </form>
     </div>

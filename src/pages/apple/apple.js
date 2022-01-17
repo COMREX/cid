@@ -1,6 +1,6 @@
 import React from "react";
 import * as AiIcons from "react-icons/ai";
-import { FaPlay } from "react-icons/fa";
+import * as FaIcons from "react-icons/fa";
 import { useForm } from "react-hook-form";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
@@ -24,11 +24,33 @@ const Apple = () => {
         <TextField label="Enter url here.."></TextField>
         <br />
         <div className="form-content">
-          <Button variant="outlined" color="default" type="submit">
-            <span className="start">
-              <FaPlay />
-            </span>
-          </Button>
+          <div className="form-control">
+            <Button variant="outlined" color="default" type="submit">
+              <span className="start">
+                <h2>
+                  <FaIcons.FaEdit />
+                </h2>
+              </span>
+            </Button>
+          </div>
+          <div className="form-control">
+            <Button variant="outlined" color="default" type="submit">
+              <span className="start">
+                <h2>
+                  <FaIcons.FaSave />
+                </h2>
+              </span>
+            </Button>
+          </div>
+          <div className="form-control">
+            <Button variant="outlined" color="default" type="submit">
+              <span className="start">
+                <h2>
+                  <FaIcons.FaPlay />
+                </h2>
+              </span>
+            </Button>
+          </div>
         </div>
       </form>
     </div>
